@@ -12,6 +12,11 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  header: {
+    homeTitle: 'Home',
+    faqTitle: 'FAQ',
+    infoTitle: 'Info',
+  },
 };
 
 export const pageContents = {
@@ -22,7 +27,7 @@ export const pageContents = {
 export const listData = {
   title: 'Things to do <sup>soon!</sup>',
   description: 'Interesting things I want to check out!',
-  image: 'https://images.pexels.com/photos/3774088/pexels-photo-3774088.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=510&amp;w=1000',
+  image: 'https://images.pexels.com/photos/3774088/pexels-photo-3774088.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=510&w=1000',
   columns: [
     {
       key: 0,
@@ -140,6 +145,18 @@ const cards = [
     title: 'Skyrim',
   },
 ];
+
+export const faqContents = {
+  title: 'FAQ',
+  subtitle: 'Frequently asked questions',
+  image: 'https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=510&w=1000',
+};
+
+export const infoContents = {
+  title: 'info',
+  subtitle: 'Important info',
+  image: 'https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=510&w=1000',
+};
 
 const initialStoreData = {
   app: {...pageContents},
