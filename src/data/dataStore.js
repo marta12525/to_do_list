@@ -16,6 +16,7 @@ export const settings = {
     homeTitle: 'Home',
     faqTitle: 'FAQ',
     infoTitle: 'Info',
+    headerIcon: 'clipboard-list',
   },
 };
 
@@ -84,6 +85,19 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'https://images.pexels.com/photos/3774088/pexels-photo-3774088.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=510&amp;w=1000',
   },
+  {
+    id: 'list-2',
+    title: 'Books to read <sup>soon!</sup>',
+    description: 'Interesting books I want to check out!',
+    image: 'https://images.pexels.com/photos/1370295/pexels-photo-1370295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=510&amp;w=1000',
+  },
+  {
+    id: 'list-3',
+    title: 'Movies to watch <sup>soon!</sup>',
+    description: 'Interesting movies I want to check out!',
+    image: 'https://images.pexels.com/photos/33129/popcorn-movie-party-entertainment.jpg?auto=compress&cs=tinysrgb&dpr=2&h=510&amp;w=1000',
+  },
+
 ];
 
 const columns = [
